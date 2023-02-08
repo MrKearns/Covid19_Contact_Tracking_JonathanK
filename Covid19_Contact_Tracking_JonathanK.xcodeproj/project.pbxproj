@@ -11,6 +11,8 @@
 		816F663E298C12BD0067B899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F663D298C12BD0067B899 /* ContentView.swift */; };
 		816F6640298C12BE0067B899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F663F298C12BE0067B899 /* Assets.xcassets */; };
 		816F6643298C12BE0067B899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F6642298C12BE0067B899 /* Preview Assets.xcassets */; };
+		816F664A298C14E50067B899 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F6649298C14E50067B899 /* MapView.swift */; };
+		816F664D298C3DDE0067B899 /* SymptomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F664C298C3DDE0067B899 /* SymptomsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		816F663D298C12BD0067B899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		816F663F298C12BE0067B899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816F6642298C12BE0067B899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		816F6649298C14E50067B899 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		816F664B298C1BE60067B899 /* Covid19-Contact-Tracking-JonathanK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Covid19-Contact-Tracking-JonathanK-Info.plist"; sourceTree = SOURCE_ROOT; };
+		816F664C298C3DDE0067B899 /* SymptomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		816F663A298C12BD0067B899 /* Covid19_Contact_Tracking_JonathanK */ = {
 			isa = PBXGroup;
 			children = (
+				816F664B298C1BE60067B899 /* Covid19-Contact-Tracking-JonathanK-Info.plist */,
 				816F663B298C12BD0067B899 /* Covid19_Contact_Tracking_JonathanKApp.swift */,
 				816F663D298C12BD0067B899 /* ContentView.swift */,
+				816F6649298C14E50067B899 /* MapView.swift */,
+				816F664C298C3DDE0067B899 /* SymptomsView.swift */,
 				816F663F298C12BE0067B899 /* Assets.xcassets */,
 				816F6641298C12BE0067B899 /* Preview Content */,
 			);
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816F664D298C3DDE0067B899 /* SymptomsView.swift in Sources */,
 				816F663E298C12BD0067B899 /* ContentView.swift in Sources */,
+				816F664A298C14E50067B899 /* MapView.swift in Sources */,
 				816F663C298C12BD0067B899 /* Covid19_Contact_Tracking_JonathanKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,11 @@
 				DEVELOPMENT_TEAM = D9TZTLV9Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Covid19-Contact-Tracking-JonathanK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs location to use.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,11 @@
 				DEVELOPMENT_TEAM = D9TZTLV9Q2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Covid19-Contact-Tracking-JonathanK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs location to use.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
